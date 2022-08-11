@@ -1,9 +1,9 @@
 
-export default function CounterHooks() {
+export default function CounterHooks({ initialCount }) {
     return (
         <div>
             <button>-</button>
-            <span>0</span>
+            <span>{initialCount}</span>
             <button>+</button>
         </div>
     )
