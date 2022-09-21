@@ -1,5 +1,7 @@
+import { useState } from "react"
 
 export default function CounterHooks({ initialCount }) {
+    useState({ count: initialCount })
     return (
         <div>
             <button>-</button>
